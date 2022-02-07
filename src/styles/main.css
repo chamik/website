@@ -4,3 +4,9 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@layer base {
+    .prose a {
+        @apply hover:text-cyan-700 underline transition-all hover:underline-offset-6
+    }
+}

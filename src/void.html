@@ -1,0 +1,55 @@
+---
+layout: page
+title: Void
+description: >- 
+    Here I scream. 
+    A hub for my rants, 'blog posts', and other stuff.
+---
+
+<h2>Void</h2>
+
+<p>Here I scream into the void that is the interwebs. Articles here will range from total shitposts to technical writeups. Choose wisely.</p>
+<hr>
+
+<h2>Pinned</h2>
+
+<div class="flex flex-wrap flex-row justify-start">
+    {% assign pages = site.pages | where: 'pinned', 'true' %}
+    {% assign posts = site.posts | where: 'pinned', 'true' %}
+    {% assign all = pages | concat: posts | sort: 'title' %}
+    {% for page in all %}
+        <a href="{{ page.url }}"><p class="!my-1 pr-4">{{ page.title }}</p></a>
+    {% endfor %}
+</div>
+
+<h2>By tag</h2>
+
+<div>
+    {% for tag in site.tags %}
+        <h4 id="{{ tag[0] }}">{{ tag[0] | upcase }}</h4>
+        {% assign posts = tag[1] | where: 'unlisted', 'false' | sort: 'title' %}
+
+        <div class="flex flex-wrap flex-row justify-start">
+            {% for post in posts %}
+                {% if post.translation %}
+                    {% assign translation_url = post.translation %}
+                    {% if translation_url == 'infer' %}
+                        {% if post.locale == 'cs' %}
+                            {% assign translation_url = post.url | replace: '.cs.html', '.html' %}
+                        {% else %} 
+                            {% assign translation_url = post.url | replace: '.html', '.cs.html' %}
+                        {% endif %}
+                    {% endif %}
+
+                    {% if post.locale == 'cs' %}
+                        <p class="!my-1 pr-5"><a href="{{ post.url }}">{{ post.title }}</a> (<a href="{{ translation_url }}">🇺🇸</a>)</p>
+                    {% else %}
+                        <p class="!my-1 pr-5"><a href="{{ post.url }}">{{ post.title }}</a> (<a href="{{ translation_url }}">🇨🇿</a>)</p>
+                    {% endif %}
+                {% else %}
+                    <p class="!my-1 pr-5"><a href="{{ post.url }}">{{ post.title }}</a></p>
+                {% endif %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>

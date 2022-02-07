@@ -1,11 +1,11 @@
 {
-    "name": "jekyll-tailwind-template",
+    "name": "kubikovo-webpage",
     "version": "0.0.1",
-    "description": "Basic Jekyll site template using Tailwind CSS with PostCSS",
+    "description": "Website of one named Kubík, aka chamik",
     "scripts": {
         "setup": "gem install bundler && bundle install && npm ci",
         "start": "jekyll serve --livereload",
-        "build": "bundler exec jekyll build -d build/ && npx postcss src/styles/main.css -o build/styles/main.css"
+        "build": "bundler exec jekyll build -d build/ && npx tailwindcss -i build/styles/main.css -o build/styles/main.css --minify"
     },
     "devDependencies": {
         "@tailwindcss/typography": "^0.5.1",

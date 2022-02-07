@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+{% if page.translation %}
+    {% assign translation_url = page.translation %}
+    {% if translation_url == 'infer' %}
+        {% if page.locale == 'cs' %}
+            {% assign translation_url = page.url | replace: '.cs.html', '.html' %}
+        {% else %} 
+            {% assign translation_url = page.url | replace: '.html', '.cs.html' %}
+        {% endif %}
+    {% endif %}
+
+    <nav class="text-center md:float-right pb-4 md:pb-0 -mt-10 underline">
+        {% if page.locale == 'cs' %}
+            <a href="{{ translation_url }}"><p>Available in English 🇺🇸</p></a>
+        {% else %}
+            <a href="{{ translation_url }}"><p>Dostupné v češtině 🇨🇿</p></a>
+        {% endif %}
+    </nav>
+{% endif %}
+
+<article class="prose prose-xl min-w-full prose-headings:mb-5 prose-hr:my-7 prose-p:my-3 prose-blockquote:my-5 prose-a:underline-offset-4
+                prose-li:my-2">
+    {{ content }}
+</article>
+
+{% if page.date %}
+    <hr class="mt-5">
+
+    <div class="flex justify-between py-2">
+        <p class="text-gray-600 text-xs inline-block my-auto">{{ page.date | date: "%d. %m. %Y" }}</p>
+        <div class="flex flex-wrap">
+            {% for tag in page.tags %}
+                <a href="/void#{{ tag }}">
+                    <p class="inline-block text-gray-600 font-bold text-xs pl-1">{{ tag | upcase }}</p>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+{% endif %}

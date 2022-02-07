@@ -5,9 +5,31 @@ module.exports = {
         './_site/**/*.{js,html}',
         './src/**/*.{js,html}',
     ],
-    darkMode: 'media',
     theme: {
-        extend: {},
+        extend: {
+            fontFamily: {
+                'sans': ['Libre\ Franklin', 'sans-serif'],
+                'mono': ['Roboto\ Mono', 'monospace'],
+            },
+            typography: {
+                DEFAULT: {
+                    css: {
+                        ':where(blockquote p:first-of-type):not(:where([class~="not-prose"] *))::before': {
+                            content: 'none',
+                        },
+                        ':where(blockquote p:last-of-type):not(:where([class~="not-prose"] *))::after': {
+                            content: 'none',
+                        }
+                    }
+                }
+            },
+            textUnderlineOffset: {
+                6: '6px',
+            },
+            translate: {
+                'bit': '0.10rem',
+            }
+        },
     },
     variants: {
         extend: {},

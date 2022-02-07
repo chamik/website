@@ -1,16 +1,44 @@
-title: Jekyll Tailwind Template
-description: Basic Jekyll site template using Tailwind CSS with PostCSS
+title: Kubíkovo
+author: chamik
+author_realname: Jakub Hampl
+type: Person
 
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+tagline: Just another page on the interwebs.
+description: >-
+  Just another page on the interwebs.
+  Personal site of Jakub Hampl, also known as Kubík or chamik.
+logo: /src/assets/images/pfp.png
+timezone: Europe/Prague
+
+url: "https://chamik.eu"
+
+github_username: chamik
+twitter:
+  username: kub1k_h
+  card: summary
+
+social:
+  name: chamik
+  links:
+    - https://twitter.com/kub1k_h
+    - https://www.wikidot.com/user:info/chamik
+    - https://github.com/chamik
+    - https://linkedin.com/in/chamik/
+    - https://steamcommunity.com/id/chamik/
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
   - jekyll-postcss
+#  - jekyll-multiple-languages-plugin
 
 postcss:
   cache: false
 
 source: src/
+
+#languages: ['en', 'cs']
+#exclude_from_localizations: ['styles', 'assets']
 
 exclude: [
   .gitignore,
