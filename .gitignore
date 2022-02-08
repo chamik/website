@@ -4,4 +4,5 @@ build/
 .jekyll-cache/
 .jekyll-metadata/
 node_modules/
+notes/
 vendor
