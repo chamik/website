@@ -5,16 +5,16 @@ description: >-
     Here I scream. 
     A hub for my rants, 'blog posts', and other stuff.
 
-locale: en
+locale: cs
 translation: infer
 ---
 
 <h2>Void</h2>
 
-<p>Here I scream into the void that is the interwebs. Articles here will range from total shitposts to technical writeups. Choose wisely.</p>
+<p>Tady křičím do prázdnoty internetů. Články tady sahají od naprostých hoven až po technické writeupy. Vybírej pečlivě.</p>
 <hr>
 
-<h2>Pinned</h2>
+<h2>Připnuté</h2>
 
 <div class="flex flex-wrap flex-row justify-start">
     {% assign pages = site.pages | where: 'pinned', 'true' %}
@@ -25,6 +25,6 @@ translation: infer
     {% endfor %}
 </div>
 
-<h2>By tag</h2>
+<h2>Podle štítku</h2>
 
 {% include tag_cloud.html %}

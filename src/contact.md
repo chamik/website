@@ -11,7 +11,7 @@ translation: infer
 
 ## Contact
 
-If you want to share anything sensitive, consider encrypting it with my [PGP](pgp) key.
+If you want to share anything sensitive, consider encrypting it with my [PGP](/contact/pgp) key.
 
 -----
 

@@ -2,8 +2,8 @@
 layout: page
 title: Kontakt
 description: >-
-    Shoot me a message!
-    I am pretty much on every normal platform.
+    Napiš mi zprávu!
+    Jsem prakticky na každé normální platformě.
 
 locale: cs
 translation: infer
@@ -11,7 +11,7 @@ translation: infer
 
 ## Kontakt
 
-Pokud mi chceš poslat něco důvěrného, můžeš to zašifrovat mým [PGP](pgp) klíčem.
+Pokud mi chceš poslat něco důvěrného, můžeš to zašifrovat mým [PGP (EN)](/contact/pgp) klíčem.
 
 -----
 

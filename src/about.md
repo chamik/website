@@ -15,9 +15,9 @@ I am a programmer, administrator of the [Czech branch of the SCP Foundation](htt
 
 ## What?
 
-I am most interested in creating desktop apps, games, and small utility tools. I create stuff using mostly C#, Python, Bash, and TypeScript or JavaScript. I've also worked with Rust, LabVIEW, and C. I have some experience with Linux as I use Arch btw. Here's [the stuff I use](/void/tools).
+I am most interested in BE, games, and small command-line tools. I create stuff using mostly C#, Python, and Bash. I've also worked with Rust, JS, TS, LabVIEW, and C. I have some experience with Linux as I use Arch btw. Here's [the stuff I use](/void/tools).
 
-[The SCP Foundation](http://scpwiki.com){:target="_blank"} is an amazing community and I'm maintaining the [Czech branch](http://scp-wiki.cz){:target="_blank"} since September 2020. Most of my free time gets channeled into this site.
+[The SCP Foundation](http://scpwiki.com){:target="_blank"} is an amazing community and I'm maintaining the [Czech branch (CS)](http://scp-wiki.cz){:target="_blank"} since September 2020. Most of my free time gets channeled into this site.
 
 When I'm not programming, I like to read a book, solve twisty puzzles, play guitar, or touch grass outside. I have a beautiful chameleon named [Leo](https://cdn.discordapp.com/attachments/719587027233800192/858445373034201169/IMG_20210614_144456.jpg){:target="_blank"}.
 

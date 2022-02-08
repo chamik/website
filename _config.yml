@@ -30,15 +30,13 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-postcss
-#  - jekyll-multiple-languages-plugin
 
 postcss:
   cache: false
 
-source: src/
+permalink: pretty
 
-#languages: ['en', 'cs']
-#exclude_from_localizations: ['styles', 'assets']
+source: src/
 
 exclude: [
   .gitignore,

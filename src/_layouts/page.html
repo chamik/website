@@ -6,9 +6,10 @@ layout: default
     {% assign translation_url = page.translation %}
     {% if translation_url == 'infer' %}
         {% if page.locale == 'cs' %}
-            {% assign translation_url = page.url | replace: '.cs.html', '.html' %}
+            {% assign translation_url = page.url | replace: '.cs/', '/' %}
         {% else %} 
-            {% assign translation_url = page.url | replace: '.html', '.cs.html' %}
+            {% assign last = page.url | size | minus: 1 %}
+            {% assign translation_url = page.url | slice: 0, last | append: '.cs/' %}
         {% endif %}
     {% endif %}
 
