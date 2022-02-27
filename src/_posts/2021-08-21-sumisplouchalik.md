@@ -9,7 +9,7 @@ tags: šumišplouchalík shitpost
 image: /assets/images/sumisplouchalik/sumisplouchalik.png
 
 pinned: true
-unlisted: false
+locale: cs
 ---
 
 ## Šumišplouchalík
