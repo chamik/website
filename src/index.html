@@ -5,7 +5,7 @@ image: /assets/images/pfp.png
 ---
 
 <div class="grid grid-cols-1 md:grid-cols-2 grid-flow-row-dense auto-rows-auto gap-6">
-    {% assign posts = site.posts | where: 'unlisted', 'false' | slice: 0, 7 %}
+    {% assign posts = site.posts | where: 'unlisted', nil | slice: 0, 7 %}
     {% for post in posts %}
         <div class="relative flex flex-col rounded-sm border group">
             <div class="transition-all absolute group-hover:translate-x-2 group-hover:translate-y-2 bg-cyan-600 h-full w-full rounded-sm"/></div>
@@ -24,12 +24,12 @@ image: /assets/images/pfp.png
                                 <p class="text-gray-600 text-xs inline-block pr-4">{{ post.date | date: "%d. %m. %Y" }}</p>
                                 
                                 {% for tag in post.tags %}
-                                    <p class="inline-block text-gray-600 font-bold text-xs">{{ tag | upcase }}</p>
+                                    <p class="inline-block text-gray-600 font-bold text-xs pr-2">{{ tag | upcase }}</p>
                                 {% endfor %}
                             </div>
                         </div>            
                     </div>
-                    <div class="text-center pt-6">
+                    <div class="text-center pt-4">
                         <p class="italic">{{ post.description | truncate: 120 }}</p>
                     </div>
                 </div>
