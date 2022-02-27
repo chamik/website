@@ -1,0 +1,60 @@
+---
+layout: page
+title: Geek Code
+description: Deep dive into one of the most <b>geek</b> creations on the internet.
+image: https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Bloque_de_c%C3%B3digo_geek_%281330560000%29.svg/1200px-Bloque_de_c%C3%B3digo_geek_%281330560000%29.svg.png
+
+category: study
+---
+
+## Geek Code
+
+When we "meet" somebody online, it's often hard to *assess* the other person at a glance. In real life our brains are hard wired to instantly judge everyone in a split second while we don't even realize it. We do this based on the other persons appearance and body language. But on the internet? The only thing you often have at your disposal is a profile picture, and sometimes a bio.
+
+So how can we make the most out of that short description? That's where **Geek Code** comes in.
+
+### What is Geek Code?
+
+[Geek code](https://en.wikipedia.org/wiki/Geek_Code) is a series of letters and symbols that self-define *you*. It can look something like this:
+
+```
+GED/J d-- s:++>: a-- C++(++++) ULU++ P+ L++ E---- W+(-) N+++ o+ K+++ w--- O- M+ V-- PS++>$ PE++>$ Y++ PGP++ t- 5+++ X++ R+++>$ tv+ b+ DI+++ D+++ G+++++ e++ h r-- y++**
+```
+
+Geek code was created by Robert A. Hayden in 1993 as a way to concisely describe oneself on an online forum, or in an email.
+
+Each letter describes a specific *trait*, for example the letter **a** depicts ones **age**. The **\-\-** behind the **a** shows that the person is quite young (20-24). **tv+** means that the person watches television daily. **R+++>$** that they are an expert role-player, are trying to get even better at, and have earned money from it. And so on, you get the idea.
+
+### How it came to be
+
+I could try to sum up an [interview with Robert from the Washington Post](https://www.washingtonpost.com/archive/lifestyle/1996/05/17/the-code-of-the-geeks/764cb760-d6f4-4ba2-860c-e1d1bcc69919/){:target="_blank"}, but you should honestly just go read it. It was written in 1996 and I think it perfectly captures the *vibe* of "the good ol' days of the internet." Here are some passages I found the most amusing:
+
+> A Web search engine found 30,000 pages mentioning it, then overloaded and stopped looking.
+
+Just... lol
+
+> He graduated from high school in 1989 and discovered the Internet a year later. "It was all downhill from there," he says.
+
+The idea of *"discovering the Internet"* is so fucking funny and alien to me. It's almost terrifying how quickly we've adapted (or maybe I'm just way too young).
+
+> "I'll do it until I die or get a life," Hayden says.
+
+I guess he got a life after all.
+
+### The downfall
+
+It seems to have been super popular in the years 1993-1997 -- people were unironically using it on their webpages and at the end of their emails. The internet was so "small" back then that it made him a personality. **On the whole Web**, people knew about his creation. It's hard to imagine for a youngster like me.
+
+Alas, nothing lasts forever and it seems that the Geek Code met the bottomless pit of *irrelevancy* around the year 2000. Sadly I was unable to find much info from that era.
+
+The original website at [www.geekcode.com](http://www.geekcode.com) is down, but there is still a overwhelmingly large number of old personal websites mentioning it.
+
+### The resurrection
+
+There have of course been attempts to resurrect this wonderful idea. There is a [whole page of stuff](http://www.joereiss.net/geek/){:target="_blank"} on the website of [Joe Reiss](http://www.joereiss.net/){:target="_blank"} (please go check that page out, it's amazing).
+
+There are many implementations of a *Geek Decoder*, such as the one [made by Joe](http://www.joereiss.net/geek/ungeek.html){:target="_blank"}, [or another one](https://archive.ph/20130414153627/http://www.ebb.org/ungeek/){:target="_blank"} by [Bradley M. Kuhn](https://en.wikipedia.org/wiki/Bradley_M._Kuhn){:target="_blank"}.
+
+There is also a large number of variations, such as the [Personal Growth Geek Code](https://paulkienitz.net/geek-code.html) or [Acorn Code](https://web.archive.org/web/19970713210304/http://www.werewlf.demon.co.uk/quintin/code.html).
+
+The most recent 
