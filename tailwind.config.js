@@ -18,6 +18,12 @@ module.exports = {
                             content: 'none',
                         },
                         ':where(blockquote p:last-of-type):not(:where([class~="not-prose"] *))::after': {
+                           content: 'none',
+                        },
+                        ':where(code):not(:where([class~="not-prose"] *))::before': {
+                            content: 'none',
+                        },
+                        ':where(code):not(:where([class~="not-prose"] *))::after': {
                             content: 'none',
                         }
                     }
