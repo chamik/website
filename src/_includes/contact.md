@@ -1,6 +1,6 @@
 Discord: **Kubik#9654**
 
-Email: [kubik@chamik.eu](mailto:kubik@chamik.eu){:target="_blank"}
+Email: **`kubik`** at this domain
 
 Github: [chamik](https://github.com/chamik){:target="_blank"}
 
