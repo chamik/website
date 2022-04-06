@@ -4,6 +4,7 @@ title: About
 description: DO YOU EVEN KNOW WHO I AM? Please tell me who I am. I am very lost in life.
 
 translation: infer
+pinned: true
 locale: en
 ---
 
