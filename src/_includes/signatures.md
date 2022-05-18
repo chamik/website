@@ -17,3 +17,7 @@
 > Alkohol je tekutá verze Photoshopu
 >
 > -- [Radek](https://www.instagram.com/radeks.exe/){:target="_blank"}
+
+> Jedno standardní utření rukou jsou dvě utěrky.
+> 
+> -- Matúš - ČtvrtNaŘ#1876
