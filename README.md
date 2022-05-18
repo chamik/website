@@ -2,6 +2,8 @@
 
 Hi, welcome. This my little place on the interwebs. All of the styling and 'tech-ish' stuff is licensed under the MIT license. All of the creative content (namely in the folder `_posts`) falls under the [CC BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/). Feel free to share and recreate!
 
+This site is created using my [jekyll-tailwind-template](https://github.com/chamik/jekyll-tailwind-template), so I recommend looking there if you're looking for something more bare-bones.
+
 ## Build
 
 This site is built using [Jekyll](https://jekyllrb.com/), you can learn how to set it up [here](https://jekyllrb.com/docs/installation/).
