@@ -11,7 +11,7 @@ locale: cs
 
 Zdravíčko, internetový poutníku! Mé jméno je **Jakub Hampl**. Říkají mi taky **Kubík**, nebo **chamik**.
 
-Jsem programátor, administrátor [české větve SCP Nadace](http://scp-wiki.cz){:target="_blank"}. Občas si zahraju na kytaru a vyžívám se ve fikci a barevných plazech.
+Jsem programátor a administrátor [české větve SCP Nadace](http://scp-wiki.cz){:target="_blank"}; občas si zahraju na kytaru a vyžívám se ve fikci a barevných plazech.
 
 ## Co?
 
