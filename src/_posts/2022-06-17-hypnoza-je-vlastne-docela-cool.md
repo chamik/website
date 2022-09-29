@@ -2,7 +2,7 @@
 layout: page
 title: Hypnóza je vlastně docela cool
 description: Můj příspěvek na přednáškovou noc s Prezentiádou
-image: https://www.jamesanthony.co.uk/wp-content/uploads/TO-THIS.jpg
+image: /assets/images/thumbnails/hypnosis.webp
 tags: talk
 ---
 
