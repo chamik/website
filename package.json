@@ -4,8 +4,8 @@
     "description": "Website of one named Kubík, aka chamik",
     "scripts": {
         "setup": "gem install bundler && bundle install && npm ci",
-        "start": "jekyll serve --livereload",
-        "drafts": "jekyll serve --livereload --future --drafts",
+        "start": "bundler exec jekyll serve --livereload",
+        "drafts": "bundler exec jekyll serve --livereload --future --drafts",
         "build": "bundler exec jekyll build -d build/ && npx tailwindcss -i build/styles/main.css -o build/styles/main.css --minify"
     },
     "devDependencies": {
