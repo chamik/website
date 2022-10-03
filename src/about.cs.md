@@ -9,17 +9,17 @@ locale: cs
 
 ## Kdo?
 
-Zdravíčko, internetový poutníku! Mé jméno je **Jakub Hampl**. Říkají mi taky **Kubík**, nebo **chamik**.
+Zdravím, internetový poutníku. Mé jméno je **Jakub Hampl**. Říkají mi taky **Kubík**, nebo **chamik**.
 
-Jsem programátor a administrátor [české větve SCP Nadace](http://scp-wiki.cz){:target="_blank"}; občas si zahraju na kytaru a vyžívám se ve fikci a barevných plazech.
+Jsem programátor -- vyžívám se hlavně ve psané fikci, barevných plazech a kočičkách.
 
 ## Co?
 
-Zajímám se hlavně o BE, hry a malé command-line programy. Věci vytvářím hlavně za pomoci C#, Pythonu a Bashe. Taky občas pracuju s Rustem, JS, TS, LabVIEW a C. Mám zkušenosti s Linuxem neboť používám Arch mimochodem. Tady jsou [věci, které používám (EN)](/void/tools).
+Zajímám se hlavně o backend, algoritmizaci, hry a malé utility programy. Věci tvořím převážně za pomocí C#, Pythonu a Julie. Občas zabrouzdám i k Rustu, JS, TS, LabVIEW a C. Mám zkušenosti s Linuxem neboť používám Arch mimochodem. Tady jsou [věci, které používám (EN)](/void/tools).
 
-[SCP Nadace (EN)](http://scpwiki.com){:target="_blank"} je skvělá komunita a od září 2020 spravuji [českou větev](http://scp-wiki.cz){:target="_blank"}. Většina mého volného času padne právě tam.
+Když zrovna neprogramuju, rád si přečtu knihu, hraju na kytaru, nebo se dotýkám trávy venku. Mám krásného chameleona jménem [Leo](https://cdn.discordapp.com/attachments/719587027233800192/858445373034201169/IMG_20210614_144456.jpg){:target="_blank"}.
 
-Když zrovna neprogramuju, rád si přečtu knihu, točím rubikovkou, hraju na kytaru, překládám, nebo se dotýkám trávy venku. Mám krásného chameleona jménem [Leo](https://cdn.discordapp.com/attachments/719587027233800192/858445373034201169/IMG_20210614_144456.jpg){:target="_blank"}.
+Od září 2020 jsem byl dva roky administrátorem [české větve SCP Nadace](http://scp-wiki.cz){:target="_blank"} a stále jsem aktivním členem. Od září 2022 jsem zaměstnán v [Algorithmics](https://cz.alg.academy/), kde vyučuji Python a Scratch.
 
 Nemám rád byrokracii a cokoliv, co má něco společného s CSS.
 
