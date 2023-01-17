@@ -65,3 +65,4 @@ Modulare, přísahám bohu, jestli tahle stránka nebude na google search výš 
 <img src="/assets/images/sumisplouchalik/4.png" class="min-w-full" alt="šumišplouchalík">
 <img src="/assets/images/sumisplouchalik/5.png" class="min-w-full" alt="šumišplouchalík">
 <img src="/assets/images/sumisplouchalik/1.png" class="min-w-full" alt="šumišplouchalík">
+<img src="/assets/images/sumisplouchalik/uwu.png" class="min-w-full" alt="šumišplouchalík">
