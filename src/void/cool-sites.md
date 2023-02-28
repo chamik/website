@@ -22,3 +22,5 @@ An ever-expanding list of websites I find *cool*.
 [Meziklasí](https://www.meziklasi.cz/) - A blog about a mythical village in the center of the Czech Republic
 
 [rdck.dev](https://rdck.dev/) - A cool redhead guy doing cool programming stuff
+
+[Marian](https://mariansam.eu/) - Just a picture of Harold
