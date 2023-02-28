@@ -3,7 +3,10 @@ layout: page
 title: Python cheat sheet
 description: Python cheat sheet
 permalink: /python-cheat-sheet/
+sitemap: false
 ---
+
+
 
 ## turtle
 
