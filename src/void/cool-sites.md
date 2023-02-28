@@ -19,6 +19,6 @@ An ever-expanding list of websites I find *cool*.
 
 [Black Blog](https://blackblog.cz/) - A blog about development, math, physics, literature, and tea
 
-[Everything2](https://everything2.com/) - A collaborative writing project
-
 [Meziklasí](https://www.meziklasi.cz/) - A blog about a mythical village in the center of the Czech Republic
+
+[rdck.dev](https://rdck.dev/) - A cool redhead guy doing cool programming stuff
