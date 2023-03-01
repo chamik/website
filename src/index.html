@@ -46,25 +46,7 @@ image: /assets/images/pfp.png
     <p class="mb-4">RECENT POSTS</p>
     {% assign posts = site.posts | where: 'unlisted', nil | where: 'featured', nil | slice: 0, 4 %}
     {% for post in posts %}
-        <!-- https://daily-dev-tips.com/posts/tailwind-zooming-background-images/ -->
-        <a href="{{ post.url }}">
-            <article class="group relative flex items-center justify-center overflow-hidden w-full mb-3 hover:mb-4 hover:mt-2 h-36 hover:h-44 transition-all ease-in-out transform shadow-lg">
-                <div class="absolute w-full h-full transition-all duration-150 ease-linear transform bg-center opacity-10 group-hover:opacity-20 bg-cover bg-[url('{{ post.image }}')]"></div>
-                <div class="flex flex-col transition-all duration-500 ease-in-out transform w-full h-full">
-                    <h2 class="text-2xl md:text-4xl pr-5 font-bold ml-8 mt-8 group-hover:text-xl md:group-hover:text-2xl group-hover:ml-6 group-hover:mt-6 transition-all transform">{{ post.title }}</h2>
-                    <p class="opacity-0 text-sm pr-5 md:text-base duration-[150ms] mt-4 ml-10 group-hover:opacity-100 group-hover:ml-6">
-                        {{ post.description }}
-                    </p>
-                    <div class="flex flex-row mt-auto ml-8 mb-6 group-hover:ml-6 group-hover:mb-4 opacity-0 group-hover:opacity-100 duration-[100ms] ease-in">
-                        <p class="mr-8 text-sm md:text-base">{{ post.date | date: "%d. %m. %Y"}}</p>
-
-                        {% for tag in post.tags %}
-                            <p class="pr-2 text-sm md:text-base">{{ tag | upcase }}</p>
-                        {% endfor %}
-                    </div>
-                </div>
-            </article>
-        </a>
+        {% include article_view.html %}
     {% endfor %}
     <p class="text-lg mt-2 prose prose-blog"><a href="/void/">more articles</a></p>
 </div>
