@@ -4,36 +4,49 @@ language: none
 image: /assets/images/pfp.png
 ---
 
-<div class="grid grid-cols-1 md:grid-cols-2 grid-flow-row-dense auto-rows-auto gap-6">
-    {% assign posts = site.posts | where: 'unlisted', nil | slice: 0, 7 %}
-    {% for post in posts %}
-        <div class="relative flex flex-col rounded-sm border group">
-            <div class="transition-all absolute group-hover:translate-x-2 group-hover:translate-y-2 bg-cyan-600 h-full w-full rounded-sm"/></div>
+<div class="flex flex-col">
+    {% assign featured = site.posts | sort: "date" | where: 'featured', true | first %}
+    {% if featured != nil %}
+    <p class="mb-4">FEATURED</p>
+    <a href="{{ featured.url }}" class="mb-10">
+        <article class="group relative flex items-center justify-center overflow-hidden w-full mb-3 h-60 shadow-lg">
+            <div class="absolute w-full h-full transition-all duration-150 ease-linear transform bg-center opacity-10 group-hover:opacity-20 bg-cover bg-[url('{{ featured.image }}')]">
+                <!-- accessibility -->
+                <img class="hidden" alt="Cover image of {{ featured.title }}">
+            </div>
+            <div class="flex flex-col transition-all duration-500 ease-in-out transform w-full h-full">
+                <h2 class="text-4xl pr-5 font-bold ml-8 mt-8">{{ featured.title }}</h2>
+                <p class="mt-4 ml-8 pr-5 text-lg">
+                    {{ featured.description }}
+                </p>
+                <div class="flex flex-row mt-auto ml-8 mb-6">
+                    <p class="mr-8">{{ featured.date | date: "%d. %m. %Y"}}</p>
 
-            <div class="relative bg-white h-full">
-                <a href="{{ post.url }}">
-                    <img src="{{ post.image }}" class="h-48 w-full object-cover" alt="">
-                </a>
-                <div class="px-8 py-4">
-                    <div class="text-center">
-                        <div>
-                            <a href="{{ post.url }}">
-                                <h2 class="text-2xl sm:text-3xl font-bold inline-block my-auto underline">{{ post.title }}</h2>
-                            </a>
-                            <div class="py-1">
-                                <p class="text-gray-600 text-xs inline-block pr-4">{{ post.date | date: "%d. %m. %Y" }}</p>
-                                
-                                {% for tag in post.tags %}
-                                    <p class="inline-block text-gray-600 font-bold text-xs pr-2">{{ tag | upcase }}</p>
-                                {% endfor %}
-                            </div>
-                        </div>            
-                    </div>
-                    <div class="text-center pt-4">
-                        <p class="italic">{{ post.description | truncate: 120 }}</p>
-                    </div>
+                    {% for tag in featured.tags %}
+                        <p class="pr-2">{{ tag | upcase }}</p>
+                    {% endfor %}
                 </div>
             </div>
-        </div>
+        </article>
+    </a>
+    {% endif %}
+
+    <p class="mb-4">COOL SITES</p>
+    <div class="mb-10">
+        <p class="prose prose-blog text-base md:text-lg">
+            <a href="https://blackblog.cz/" target="_blank">Black Blog</a> - A blog about development, math, physics, literature, and tea <br>
+            <a href="https://mrms.cz/" target="_blank">mrms.cz</a> - Creating overengineered (he disagrees) projects in memory unsafe languages since 2020 <br>
+            <a href="https://rdck.dev/" target="_blank">rdck.dev</a> - A cool redhead guy doing cool programming stuff <br>
+            <a href="https://mvolfik.github.io/" target="_blank">Matěj Volf</a> - Based shitposter disguised as a programmer
+        </p>
+
+        <p class="text-lg mt-2 prose prose-blog"><a href="/void/cool-sites">more cool sites</a></p>
+    </div>
+
+    <p class="mb-4">RECENT POSTS</p>
+    {% assign posts = site.posts | where: 'unlisted', nil | where: 'featured', nil | slice: 0, 4 %}
+    {% for post in posts %}
+        {% include article_view.html %}
     {% endfor %}
+    <p class="text-lg mt-2 prose prose-blog"><a href="/void/">more articles</a></p>
 </div>

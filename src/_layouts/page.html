@@ -13,7 +13,7 @@ layout: default
         {% endif %}
     {% endif %}
 
-    <nav class="text-center md:float-right pb-4 md:pb-0 -mt-10 underline">
+    <nav class="md:float-right pb-4 md:pb-0 -mt-5 underline">
         {% if page.locale == 'cs' %}
             <a href="{{ translation_url }}"><p>Available in English 🇺🇸</p></a>
         {% else %}
@@ -22,8 +22,7 @@ layout: default
     </nav>
 {% endif %}
 
-<article class="prose prose-xl min-w-full prose-headings:mb-5 prose-hr:my-7 prose-p:my-3 prose-blockquote:my-5 prose-a:underline-offset-4
-                prose-li:my-2">
+<article class="prose prose-blog md:prose-lg lg:prose-xl">
     {{ content }}
 </article>
 

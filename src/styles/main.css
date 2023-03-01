@@ -5,8 +5,20 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+@layer components {
+    .prose-blog {
+        @apply min-w-full prose-headings:mb-5 prose-hr:my-7 prose-p:my-3 prose-blockquote:my-5 prose-a:underline-offset-4
+        prose-li:my-2 text-slate-200 prose-invert
+    }
+
+    .link {
+        @apply text-cyan-500 hover:text-cyan-700 no-underline transition-all hover:underline hover:underline-offset-2
+    }
+}
+
+/* This has to be separated otherwise ALL `a` tags transition at the same time */
 @layer base {
     .prose a {
-        @apply hover:text-cyan-700 underline transition-all hover:underline-offset-6
+        @apply link
     }
 }
