@@ -34,18 +34,18 @@ image: /assets/images/pfp.png
     <p class="mb-4">COOL SITES</p>
     <div class="mb-10">
         <p class="prose prose-blog text-lg">
-            <a href="https://blackblog.cz/">Black Blog</a> - A blog about development, math, physics, literature, and tea <br>
-            <a href="https://mrms.cz/">mrms.cz</a> - Creating overengineered (he disagrees) projects in memory unsafe languages since 2020 <br>
-            <a href="https://rdck.dev/">rdck.dev</a> - A cool redhead guy doing cool programming stuff <br>
-            <a href="https://mvolfik.github.io/">Matěj Volf</a> - Based shitposter disguised as a programmer
+            <a href="https://blackblog.cz/" target="_blank">Black Blog</a> - A blog about development, math, physics, literature, and tea <br>
+            <a href="https://mrms.cz/" target="_blank">mrms.cz</a> - Creating overengineered (he disagrees) projects in memory unsafe languages since 2020 <br>
+            <a href="https://rdck.dev/" target="_blank">rdck.dev</a> - A cool redhead guy doing cool programming stuff <br>
+            <a href="https://mvolfik.github.io/" target="_blank">Matěj Volf</a> - Based shitposter disguised as a programmer
         </p>
 
         <p class="text-lg mt-2 prose prose-blog"><a href="/void/cool-sites">more cool sites</a></p>
     </div>
 
-    {% assign posts = site.posts | where: 'unlisted', nil | slice: 0, 7 %}
+    <p class="mb-4">RECENT POSTS</p>
+    {% assign posts = site.posts | where: 'unlisted', nil | where: 'featured', nil | slice: 0, 4 %}
     {% for post in posts %}
-        {% if post.featured != nil %} {% continue %} {% endif %}
         <!-- https://daily-dev-tips.com/posts/tailwind-zooming-background-images/ -->
         <a href="{{ post.url }}">
             <article class="group relative flex items-center justify-center overflow-hidden w-full mb-3 hover:mb-4 hover:mt-2 h-36 hover:h-44 transition-all ease-in-out transform shadow-lg">
@@ -69,4 +69,5 @@ image: /assets/images/pfp.png
             </article>
         </a>
     {% endfor %}
+    <p class="text-lg mt-2 prose prose-blog"><a href="/void/">more articles</a></p>
 </div>
