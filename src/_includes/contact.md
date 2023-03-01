@@ -6,6 +6,8 @@ Github: [chamik](https://github.com/chamik){:target="_blank"}
 
 Telegram: [@chamiik](https://t.me/chamiik){:target="_blank"}
 
+Instagram: [@kubikhehe](https://www.instagram.com/kubikhehe/){:target="_blank"} (private)
+
 Steam: [chamik](https://steamcommunity.com/id/chamik/){:target="_blank"}
 
 LinkedIn: [chamik](https://linkedin.com/in/chamik/){:target="_blank"}
