@@ -9,6 +9,8 @@ pinned: true
 
 An ever-expanding list of websites I find *cool*.
 
+[Aniččino](https://aniccino.blogspot.com/) - Personal blog of a cool friend
+
 [Black Blog](https://blackblog.cz/) - Blog about development, math, physics, literature, and tea
 
 [KSP](https://ksp.mff.cuni.cz/) - Programming seminar created by folks at MFF UK
