@@ -15,7 +15,7 @@ An ever-expanding list of websites I find *cool*.
 
 [KSP](https://ksp.mff.cuni.cz/) - Programming seminar created by folks at MFF UK
 
-[Marian](https://mariansam.eu/) - Just a picture of Harold
+[Marian](https://mariansam.eu/) - Just a picture of Harold (and this site of his is not even in React!)
 
 [Martin Mareš’s homepage](https://mj.ucw.cz/) - Brum brum! Creating [KSP](https://ksp.mff.cuni.cz/) and other magical projects
 
@@ -25,10 +25,13 @@ An ever-expanding list of websites I find *cool*.
 
 [mrms.cz](https://mrms.cz/) - Creating overengineered (he disagrees) projects in memory unsafe languages since 2020
 
-[rdck.dev](https://rdck.dev/) - Cool redhead guy doing cool programming stuff
+[rdck.dev](https://rdck.dev/) - This guy is unironically creating his own web browser
 
-[SCP Foundation](http://www.scpwiki.com/) - Collaborative fiction writing project
+[SCP Foundation](https://scp-wiki.cz/) - Czech branch of a collaborative fiction writing project
 
 [The Dictionary of Obscure Sorrows](https://www.dictionaryofobscuresorrows.com/) - Blog poetically describing feelings and situations with new words
 
-[Things Of Interest](https://qntm.org/) - Blog of an author and a developer
+[Things Of Interest](https://qntm.org/) - New age sci-fi with new age formats (also just a cool guy)
+
+Read a [meta article](https://mrms.cz/cool.html) about this on [mrms.cz](https://mrms.cz/)
+{: .text-sm}
