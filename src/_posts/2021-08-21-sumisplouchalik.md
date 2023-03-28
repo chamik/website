@@ -5,7 +5,7 @@ permalink: /void/sumisplouchalik/
 description: >- 
     Stránka o Šumišplouchalíkovi.
     Protože odmítám, aby jediná stránka na internetu o něm byla Modularova autorská složka.
-tags: šumišplouchalík shitpost
+tags: shitpost
 image: /assets/images/sumisplouchalik/sumisplouchalik.png
 
 pinned: true

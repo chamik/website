@@ -33,5 +33,5 @@ An ever-expanding list of websites I find *cool*.
 
 [Things Of Interest](https://qntm.org/) - New age sci-fi with new age formats (also just a cool guy)
 
-Read a [meta article](https://mrms.cz/cool.html) about this on [mrms.cz](https://mrms.cz/)
+Read a [meta article](https://mrms.cz/articles/the-cool-list-is-cool.html) about this on [mrms.cz](https://mrms.cz/)
 {: .text-sm}
