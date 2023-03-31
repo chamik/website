@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Algorithmics Python
-description: Stránka pro opakování procvičované látky
+title: Python
+description: Shrnutí základů Pythonu
 sitemap: false
 ---
 
-## Algorithmics Python
+## Základy Pythonu
 
-Vítej, zde najdeš shrnutí veškeré látky z kurzu. Můžeš se sem kdykoliv podívat, ať už kvůli procvičování, nebo opakování.
+Vítej, zde najdeš shrnutí základů pythonu. 
 
 ### Základy
 
@@ -17,14 +17,14 @@ Vítej, zde najdeš shrnutí veškeré látky z kurzu. Můžeš se sem kdykoliv 
 
 [Podmínky](zaklady/podminky)
 
-Smyčka while
+[Smyčka while](zaklady/while)
+
+[Seznam](zaklady/seznam)
 
 Smyčka for
 
 Moduly
 
-### modul Turtle
+### Knihovny
 
-[Cheatsheet](/python-cheat-sheet/)
-
-### modul Play
+[Turtle cheat sheet](/python-cheat-sheet/)

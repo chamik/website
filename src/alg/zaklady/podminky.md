@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Algorithmics Python - Podmínky
-description: Stránka pro opakování procvičované látky
+title: Python - Podmínky
+description: Shrnutí základů Pythonu
 sitemap: false
 ---
 

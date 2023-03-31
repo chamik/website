@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Algorithmics Python - Funkce
-description: Stránka pro opakování procvičované látky
+title: Python - Funkce
+description: Shrnutí základů Pythonu
 sitemap: false
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Algorithmics Python - Proměnné
-description: Stránka pro opakování procvičované látky
+title: Python - Proměnné
+description: Shrnutí základů Pythonu
 sitemap: false
 ---
 
