@@ -17,7 +17,7 @@ An ever-expanding list of websites I find *cool*.
 
 [Marian](https://mariansam.eu/) - Just a picture of Harold (and this site of his is not even in React!)
 
-[Martin Mareš’s homepage](https://mj.ucw.cz/) - Brum brum! Creating [KSP](https://ksp.mff.cuni.cz/) and other magical projects
+[Martin Mareš homepage](https://mj.ucw.cz/) - Brum brum! Creating [KSP](https://ksp.mff.cuni.cz/) and other magical projects
 
 [Matěj Volf](https://mvolfik.github.io/) - Based shitposter disguised as a programmer
 

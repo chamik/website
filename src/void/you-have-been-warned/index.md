@@ -6,8 +6,8 @@ description: The actual collection of my bad poetry
 permalink: /void/poems/you-have-been-warned/
 ---
 
-> Stín ohně v mracích,
-> křehký však - na vlasci snů,
+> Stín ohně v mracích,\\
+> křehký však - na vlasci snů,\\
 > kus popoletí.
 
 > Keř bzučí prací,\\
