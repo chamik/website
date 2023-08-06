@@ -2,7 +2,7 @@
 layout: page
 title: PGP
 permalink: /contact/pgp/
-description: How the fuck does GPG even work it's magic
+description: GPG is magic
 ---
 
 ## PGP
@@ -15,6 +15,21 @@ The fingerprint is: <span style="display: inline-block;">**`2694 FE30 8179 CBEA 
 
 I'll be happy to sign your key(s) if I know you.
 
+## I don't know what you're talking about
+
+Just use this *Magic box™* and send me the block of weird symbols it generates.
+
+<!-- I have *borrowed* this from https://vsq.cz/encrypt/ <3 -->
+<textarea id="message" class="w-full p-2 text-black" placeholder="My dearest Jacob..."></textarea>
+<div class="flex flex-col">
+    <button id="encrypt" class="border-2 mx-auto border-slate-200 h-11"><span class="my-auto p-3">Convert!</span></button>
+    <div class="language-plaintext font-mono border-2 p-2 mt-4">
+        <p id="result" class="font-mono text-sm">Encrypted message will appear here</p>
+    </div>
+</div>
+<script src="/assets/js/openpgp.min.js"></script>
+<script src="/assets/js/encrypt.js"></script>
+
 ### Fun fact
 
-As per the [official documentation](https://www.gnupg.org/gph/en/manual.html#AEN84){:target="_blank"} the fingerprint should be verified in person, or over the **phone**. So you are free to call me on Discord or whatever if you feel like it lmao.
+As per the [official documentation](https://www.gnupg.org/gph/en/manual.html#AEN84){:target="_blank"} the fingerprint should be verified in person, or over the **phone**. Feel free to call me on matrix :D
