@@ -13,6 +13,10 @@ translation: infer
 
 If you want to share anything sensitive, consider encrypting it with my [PGP](/contact/pgp) key.
 
------
+Matrix: `@kubik:0d9e.tech`
 
-{% include contact.md %}
+Email: **`kubik`** [at] this domain
+
+Discord: `@chamik_`
+
+Telegram: [@chamiik](https://t.me/chamiik){:target="_blank"}
