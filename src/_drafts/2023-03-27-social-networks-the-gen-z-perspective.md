@@ -1,17 +1,17 @@
 ---
 layout: page
 title: Social networks - the Gen Z perspective
-description: Krátké úvahy a recenze knih
-image: /assets/images/thumbnails/knih.png
+description: Where did my attention span go?
+image: /assets/images/thumbnails/subwaysurfers.JPG
 tags: study
 featured: true
 ---
 
 ## Social networks - the Gen Z(ish) perspective
 
-I have been born into the embracing hands of social networks. I remember creating my first Facebook account even though I didn't have my parents permission (sorry mum). It was great though! I could just *message* my friends instead of emailing them (yes, I am *old enough* to have done that).
+I have been born into the embracing hands of social networks. I remember creating my first Facebook account even though I didn't have my parents permission.[^1] Being able to just *message* my friends instead of emailing them[^2] was a huge thing. Social media meant I could stay in touch with a friend I made on a summer camp. 
 
-These days I feel they create more of a social barrier. We live in the most interconnected times, yet we feel the most lonely. Where did it all go wrong?
+These days, it feels like the app uses me, not the other way around. I pick up the phone voluntarily to look at ads. Why? Where did it go wrong?
 
 ### I'm sorry my hand just did that
 
@@ -25,10 +25,35 @@ A month passes and I download Instagram again; the habit returns. *Quickly*. At 
 
 ### Are social media literally crack??
 
-If everyone else around you did crack then yes, 
-<!-- , however that's likely not the case (i hope).  -->
-xd
+Taking crack and using social media is not a fair comparison, mostly because when you're using drugs it typically only affects you and your immediate family. When you use social media, it affects your whole social circle, thus introducing a feedback loop that's *very* hard to escape.
+
+Recently there's this meme going around that I think perfectly sums up one of the problems this brings. 
+
+<div class="flex flex-col md:flex-row">
+    <video class="!my-0" width="320" controls>
+        <source src="/assets/videos/genz.mp4" type="video/mp4">
+    </video>
+    <div class="md:ml-4">
+        <p class="md:!mt-0">Tagged: <b>Found a way to make classical music more accessible to the younger generations!</b></p>
+        <p>Now I get that this video is ironic, but I think that it neatly points to an underlying problem: younger are losing the ability to concentrate.</p>
+        <p>I can actually give a personal insight on this; I teach programming to younger kids </p>
+        <p>Or maybe the generational gap is revealing itself to me sooner than I thought it would.</p>
+    </div>
+</div>
+
+Not only do they mess with our attention span, we've known that social media are a correlate in depression spikes of the recent years. Why isn't anything happening?
+
+### Correlation does not imply causation
+
+Yes, yes, I hear you.
+
+I asked my younger brother if he thinks that social media are a major **cause**  of these growths. He gave me an important look and said "what else could it be?".
+
+Granted, that's not the most scientific source. But he's not the only one who thinks that; a recent study proved that [social Media is a Major Cause of the Mental Illness Epidemic in Teen Girls](https://jonathanhaidt.substack.com/p/social-media-mental-illness-epidemic).
+
+My personal opinion is that it's not just teen girls.
 
 ---
 
-Recently our Czech teacher asked us what is the greatest invention. 
+[^1]: sorry mum
+[^2]: yes, I am old enough to have done that
