@@ -1,0 +1,88 @@
+---
+layout: default
+title: Void
+description: >-
+    Article Archive.
+    Archiv článků.
+---
+<div class="flex flex-col">
+    <div class="w-full bg-zinc-900">
+        <p class="px-3 py-1 text-lg font-semibold">📌</p>
+    </div>
+    <div class="flex flex-col bg-zinc-900/[.4]">
+        {% assign pages = site.pages | where: 'pinned', 'true' %}
+        {% assign posts = site.posts | where: 'pinned', 'true' %}
+        {% assign all = pages | concat: posts | sort: 'title' %}
+        {% for post in all %}
+        <a href="{{ post.url }}" class="px-3 py-1 hover:bg-zinc-900">
+            <p>{{ post.title }}</p>
+            {% if post.translation %}
+                    {% assign translation_url = post.translation %}
+                    {% if translation_url == 'infer' %}
+                        {% if post.locale == 'cs' %}
+                            {% assign translation_url = post.url | replace: '.cs/', '/' %}
+                        {% else %} 
+                            {% assign last = post.url | size | minus: 1 %}
+                            {% assign translation_url = post.url | slice: 0, last | append: '.cs/' %}
+                        {% endif %}
+                    {% endif %}
+
+                    {% if post.locale == 'cs' %}
+                        <a href="{{ translation_url }}">
+                            <p class="pl-5">↳ 🇬🇧 version</p>
+                        </a>
+                    
+                    {% else %}
+                        <a href="{{ translation_url }}">
+                            <p class="pl-5">↳ 🇨🇿 verze</p>
+                        </a>
+                    {% endif %}
+                {% endif %}
+        </a>
+        {% endfor %}
+    </div>
+</div>
+
+{% for tag in site.tags %}
+    <div class="flex flex-col mt-8">
+        <div class="w-full bg-zinc-900">
+            <p class="px-3 py-1 text-lg font-semibold">{{ tag[0] | upcase }}</p>
+        </div>
+
+        {% assign posts = tag[1] | where: 'unlisted', nil | sort: 'title' %}
+        <div class="flex flex-col bg-zinc-900/[.4]">
+            {% for post in posts %}
+                <a href="{{ post.url }}" class="px-3 py-2 hover:bg-zinc-900">
+                    <p>{{ post.title }}</p>
+                </a>
+
+                {% if post.translation %}
+                    {% assign translation_url = post.translation %}
+                    {% if translation_url == 'infer' %}
+                        {% if post.locale == 'cs' %}
+                            {% assign translation_url = post.url | replace: '.cs/', '/' %}
+                        {% else %} 
+                            {% assign last = post.url | size | minus: 1 %}
+                            {% assign translation_url = post.url | slice: 0, last | append: '.cs/' %}
+                        {% endif %}
+                    {% endif %}
+
+                    {% if post.locale == 'cs' %}
+                        <a href="{{ translation_url }}" class="px-3 hover:bg-zinc-900">
+                            <p class="pl-5">↳ 🇬🇧 version</p>
+                        </a>
+                    
+                    {% else %}
+                        <a href="{{ translation_url }}" class="px-3 hover:bg-zinc-900">
+                            <p class="pl-5">↳ 🇨🇿 verze</p>
+                        </a>
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+{% endfor %}
+
+<a href="/void/timeline/" class="underline">
+    <p class="mt-4 py-2">✨🕛 cestuj časem / travel in time 🕓✨</p>
+</a>

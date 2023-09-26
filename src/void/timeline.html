@@ -1,0 +1,46 @@
+---
+layout: default
+title: Timeline
+description: >-
+    Articles by time.
+    Články podle času.
+---
+<div class="flex flex-col bg-zinc-900/[.4]">
+
+{% assign pages = site.pages | where: 'unlisted', nil %}
+{% assign posts = site.posts | where: 'unlisted', nil %}
+{% assign all = pages | concat: posts | sort: 'date' | reverse %}
+{% for post in all %}
+
+{% if post.title == nil %}
+        {% continue %}
+{% endif %}
+
+<a href="{{ post.url }}" class="px-3 py-2 hover:bg-zinc-900">
+    <p>{{ post.title }}</p>
+    {% if post.translation %}
+            {% assign translation_url = post.translation %}
+            {% if translation_url == 'infer' %}
+                {% if post.locale == 'cs' %}
+                    {% assign translation_url = post.url | replace: '.cs/', '/' %}
+                {% else %} 
+                    {% assign last = post.url | size | minus: 1 %}
+                    {% assign translation_url = post.url | slice: 0, last | append: '.cs/' %}
+                {% endif %}
+            {% endif %}
+
+            {% if post.locale == 'cs' %}
+                <a href="{{ translation_url }}">
+                    <p class="pl-5">↳ 🇬🇧 version</p>
+                </a>
+            
+            {% else %}
+                <a href="{{ translation_url }}">
+                    <p class="pl-5">↳ 🇨🇿 verze</p>
+                </a>
+            {% endif %}
+        {% endif %}
+</a>
+{% endfor %}
+
+</div>
