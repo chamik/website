@@ -33,6 +33,8 @@ Stále se rozšiřující seznam webů, co mi přijdou *cool*.
 
 [rdck.dev](https://rdck.dev/) - Tento člověk neironicky vytváří svůj vlastní webový prohlížeč
 
+[Rosseta](http://www.rosseta.cz/) - Úžasný old-school blog o hře the Neverhood a jiných fandomech.
+
 [SCP Foundation](https://scp-wiki.cz/) - Česká větev kolaborativního projektu psané fikce
 
 [The Dictionary of Obscure Sorrows](https://www.dictionaryofobscuresorrows.com/) - Blog poeticky popisující pocity a situace novými slovy

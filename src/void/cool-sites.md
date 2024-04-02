@@ -34,6 +34,8 @@ An ever-expanding list of websites I find *cool*.
 
 [rdck.dev](https://rdck.dev/) - This guy is unironically creating his own web browser
 
+[Rosseta](http://www.rosseta.cz/) - Amazing old-school blog about the Neverhood and other fandoms.
+
 [SCP Foundation](https://scp-wiki.cz/) - Czech branch of a collaborative fiction writing project
 
 [The Dictionary of Obscure Sorrows](https://www.dictionaryofobscuresorrows.com/) - Blog poetically describing feelings and situations with new words
