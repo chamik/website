@@ -20,4 +20,4 @@
 
 > Jedno standardní utření rukou jsou dvě utěrky.
 > 
-> -- [Matúš](https://mat.uuush.eu/)
+> -- [Matúš](https://mat.uush.eu/)
