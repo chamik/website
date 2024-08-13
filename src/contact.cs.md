@@ -18,5 +18,3 @@ Matrix: `@kubik:0d9e.tech`
 Email: **`kubik`** [zavináč] tato doména
 
 Discord: `@chamik_`
-
-Telegram: [@chamiik](https://t.me/chamiik){:target="_blank"}
