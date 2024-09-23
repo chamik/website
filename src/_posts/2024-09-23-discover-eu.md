@@ -2,6 +2,7 @@
 layout: page
 title: Toulky po Evropě – DiscoverEU 
 description: Zápisky z cesty po Berlíně, Bruselu, Lucemburku a Métách
+image: /assets/images/thumbnails/discovereu.png
 tags: travel
 featured: true
 ---
