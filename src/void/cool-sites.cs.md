@@ -17,6 +17,8 @@ Stále se rozšiřující seznam webů, co mi přijdou *cool*.
 
 [Black Blog](https://blackblog.cz/) - Blog o programování, matematice, fyzice, literatuře a čaji
 
+[jhblzk](https://jhblzk.eu/) - Blog kamarádky umělkyně
+
 [Kognise](https://kognise.dev/) - Počítačová osoba se skvělým stylem psaní
 
 [KSP](https://ksp.mff.cuni.cz/) - Seminář programování vytvořený lidmi z MFF UK
