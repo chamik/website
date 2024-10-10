@@ -18,6 +18,8 @@ An ever-expanding list of websites I find *cool*.
 
 [Black Blog](https://blackblog.cz/) - Blog about programming, math, physics, literature, and tea
 
+[jhblzk](https://jhblzk.eu/) - Blog of a friend artiste
+
 [Kognise](https://kognise.dev/) - Computer person with an amazing writing style
 
 [KSP](https://ksp.mff.cuni.cz/) - Programming seminar created by folks at MFF UK
