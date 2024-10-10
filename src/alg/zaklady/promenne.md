@@ -24,7 +24,7 @@ cena_produktu = 20
 nazev_produktu = "Banán"
 ```
 
-Hodnota `"Banán"` je v uvozovkách, protože se jedná o text, v angličtině nazýván `string`. Zkusíme si pomocí funkce `print()` tyto hodnoty vypsat.
+Hodnota `"Banán"` je v uvozovkách, protože se jedná o text, v angličtině nazýván `string`. Zkusíme si pomocí [funkce](/alg/zaklady/funkce) `print()` tyto hodnoty vypsat.
 
 ```
 cena_produktu = 20
@@ -33,7 +33,7 @@ nazev_produktu = "Banán"
 print(nazev_produktu + " stojí " + cena_produktu)
 ```
 
-Tento kód mi však nebude fungovat. Když spojujeme kusy textu, používáme k tomu operátor `+`; `cena_produktu` je však číslo, takže ho nejdřív potřebujeme převést na text. To uděláme pomocí funkce `str()`.
+Tento kód mi však nebude fungovat. Když spojujeme kusy textu, používáme k tomu operátor `+`; `cena_produktu` je však číslo, takže ho nejdřív potřebujeme převést na text. To uděláme pomocí [funkce](/alg/zaklady/funkce) `str()`.
 
 ```
 cena_produktu = 20

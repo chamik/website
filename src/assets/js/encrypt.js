@@ -1,7 +1,6 @@
 document.getElementById("encrypt").addEventListener("click", async (ev) => {
     (async () => {
         // put keys in backtick (``) to avoid errors caused by spaces or tabs
-        console.log("xd")
         const publicKeyArmored = `-----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBF/XQ70BEADKpl0ri6sdewcSFTn31t9t3gDzcS5BCpR8cyvVTE2hIR+xceAb

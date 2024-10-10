@@ -1,10 +1,7 @@
 ---
 layout: page
 title: Contact
-description: >-
-    Shoot me a message!
-    I am pretty much on every normal platform.
-
+description: Shoot me a message!
 locale: en
 translation: infer
 ---

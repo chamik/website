@@ -1,10 +1,7 @@
 ---
 layout: page
 title: Kontakt
-description: >-
-    Napiš mi zprávu!
-    Jsem prakticky na každé normální platformě.
-
+description: Napiš mi zprávu!
 locale: cs
 translation: infer
 ---
