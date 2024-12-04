@@ -17,6 +17,8 @@ Stále se rozšiřující seznam webů, co mi přijdou *cool*.
 
 [Black Blog](https://blackblog.cz/) - Blog o programování, matematice, fyzice, literatuře a čaji
 
+[Greenscreener](https://grsc.cz/) - Vítej v červené zóně
+
 [jhblzk](https://jhblzk.eu/) - Blog kamarádky umělkyně
 
 [Kognise](https://kognise.dev/) - Počítačová osoba se skvělým stylem psaní
@@ -33,11 +35,15 @@ Stále se rozšiřující seznam webů, co mi přijdou *cool*.
 
 [mrms.cz](https://mrms.cz/) - Vytvářející zbytečně složité (s čímž nesouhlasí) projekty v memory-unsafe jazycích od roku 2020
 
+[Olgasmus](https://olga.ggu.cz/) - Králíci!!!
+
 [rdck.dev](https://rdck.dev/) - Tento člověk neironicky vytváří svůj vlastní webový prohlížeč
 
 [Rosseta](http://www.rosseta.cz/) - Úžasný old-school blog o hře the Neverhood a jiných fandomech.
 
 [SCP Foundation](https://scp-wiki.cz/) - Česká větev kolaborativního projektu psané fikce
+
+[slama.dev](https://slama.dev/) - Gigachad lezec a animátor
 
 [The Dictionary of Obscure Sorrows](https://www.dictionaryofobscuresorrows.com/) - Blog poeticky popisující pocity a situace novými slovy
 

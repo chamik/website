@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -r --progress ./build/* root@chamik.eu:/www/chamik.eu/
+rsync -r --progress ./build/* gaia:/www/chamik.eu/

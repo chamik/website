@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Tvorba webů 101 | Kubík Hampl</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Tvorba webů 101</h1>
+					<h3>Kubík Hampl</h3>
+				</section>
+				<section>
+					<h2>meta</h2>
+					Všechny modré texty v prezentaci jsou odkazy, které se ti nejspíš budou hodit.
+				</section>
+				<section>
+					<h2>Co si povíme</h2>
+					<ul>
+						<li>návrh, očekávání a realita</li>
+						<li>konfigurace a tvorba</li>
+						<li>ach ty internety</li>
+						<li>diskuze??</li>
+					</ul>
+				</section>
+				<section>
+					<section>
+						<h1>návrh, očekávání a realita</h1>
+					</section>
+					<section>
+						<img data-src="./assets/this-is-fine.jpg">
+					</section>
+					<section>
+						<h3>AAAAAAAAAAAAAAAA</h3>
+						<ul>
+							<li class="fragment">hromada standardů</li>
+							<li class="fragment">milion frameworků</li>
+							<li class="fragment">nespočet způsobů jak docílit podobného výsledku</li>
+							<li class="fragment">každý vám bude tvrdit něco jiného</li>
+						</ul>
+					</section>
+					<section>
+						<h3>důsledek: neexistuje správný postup</h3>
+						<aside class="notes">
+							- bude to velmi opinionated
+							- nechci abyste si mysleli že tohle je ten JEDINÝ SPRÁVNÝ POSTUP™
+							- budu vás to učit tak, jak jsem so to naučil já
+						</aside>
+					</section>
+					<section>
+						<h3>největší úskalí</h3>
+						<p>interaktivita</p>
+						<img data-src="./assets/screen-sizes.png">
+						<aside class="notes">
+							- web musí být rozumně čitelný jak na tom nejmenším telefonu, tak na 4K ultra wide monitoru, stejně tak jako na samsung ledničce
+							- web by měl být dostupný i pro lidi
+						</aside>
+					</section>
+					<section>
+						<h3>největší úskalí</h3>
+						<img data-src="./assets/css.gif">
+					</section>
+					<section data-background-iframe="https://how-i-experience-web-today.com/">
+						<aside class="notes">
+							- hromada kognitivního bordelu který nikoho nezajímá
+						</aside>
+					</section>
+					<section>
+						<h2>Tohle nechceme!</h2>
+						<p>Náš web by:</p>
+						<ul>
+							<li class="fragment">neměl obsahovat zbytečně rušivé prvky</li>
+							<li class="fragment">měl respektovat soukromí uživatelů</li>
+							<li class="fragment">měl mít na prvním místě obsah</li>
+						</ul>
+						<p class="fragment">Cílíme na čtenářský komfort!</p>
+					</section>
+					<section>
+						<h2>Case study &ndash; Kačí blog</h2>
+						<ul>
+							<li>o cestování</li>
+							<li>o knížkách</li>
+							<li>vlastní tvorba</li>
+						</ul>
+						<aside class="notes">
+							vyrobil jsem jí ho k narozeninám a od té doby jsem ho dost zanedbával...
+						</aside>
+					</section>
+					<section data-background-iframe="https://kaci.chamik.eu/">
+					</section>
+					<section>
+						<h2>co je špatně?</h2>
+						<ul>
+							<li class="fragment">barva textu nemá dobrý kontrast</li>
+							<li class="fragment">je to nudné...</li>
+						</ul>
+						<aside class="notes">
+							- hlavní funkcí blogu je přenos informací v psané formě. pokud se blbě čte, je k ničemu.
+							- nuda není nutně špatně, ale ke Kačce se to prostě nehodí
+						</aside>
+					</section>
+					<section>
+						<h2>je třeba chytit správný vibe</h2>
+						<blockquote class="fragment">
+							"moře, pláž, letní, pohodovej, ale zároveň cute, a počkej, jako, *smích*, můžeš toho nechat? já se snažím vymyslet to slovo co chci říct. co děláš? minimalistickej zároveň."
+						</blockquote>
+					</section>
+					<section>
+						<h3>"náčrt"</h3>
+						<img width="700" data-src="./assets/vibe.png">
+						<aside class="notes">
+							sedli jsme si spolu a za 10 minut vymysleli hrubý náčrt
+						</aside>
+					</section>
+					<section>
+						<h3>výběr fontu</h3>
+						<img width="800" data-src="./assets/fontsource.png">
+					</section>
+					<section>
+						<h3>hledání správné okrové</h3>
+						<img width="700" data-src="./assets/ochre.png">
+					</section>
+					<section>
+						<h2>wireframe</h2>
+						<img data-src="./assets/wireframe.png">
+						<aside class="notes">
+							Rozhodně není potřeba, ale hodně usnadňuje komunikaci
+						</aside>
+					</section>
+					<section data-background-iframe="https://kaculik.cz/">
+					</section>
+					<section>
+						<ul>
+							<li>nemusíte mít perfektní představu</li>
+							<li class="fragment">vymýšlejte za pochodu</li>
+							<li class="fragment">experimentujte!</li>
+							<li class="fragment">cool vzhled je fajn, ale jde o obsah!</li>
+						</ul>
+					</section>
+					<section>
+						<p>dobrý design neuděláte za noc</p>
+						<p class="fragment" data-fragment-index="1">ale zase se nenechte unést...</p>
+						<img class="fragment" width="400" data-src="./assets/finish.jpg" data-fragment-index="1">
+						<aside class="notes">
+							U každého se hendikep programátorství projevuje jinak. U mě třeba tak, trávím hodiny v kuse hledáním ideálního fontu.
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1>konfigurace a tvorba</h1>
+					</section>
+					<section>
+						<h2>Nejdříve pár technikálií...</h2>
+					</section>
+					<section data-auto-animate>
+						<h2>HTML</h2>
+						<h2>CSS</h2>
+						<h2>JavaScript</h2>
+					</section>
+					<section data-auto-animate>
+						<h2>HTML</h2>
+						<h2>CSS</h2>
+						<h2><s>JavaScript</s></h2>
+						<p>nebude potřeba :)</p>
+					</section>
+					<section>
+						<h3>statické weby</h3>
+						<ul>
+							<li class="fragment" data-fragment-index="1">jednou se vygenerují a zůstávají stejné</li>
+							<li class="fragment" data-fragment-index="2">stačí jednoduchý webserver*</li>
+							<li class="fragment" data-fragment-index="3">jednodušší na výrobu údržbu</li>
+						</ul>
+						<p class="fragment" data-fragment-index="2">* k tomu co je to webserver se dostaneme později</p>
+					</section>
+					<section>
+						<h3 class="mt-4!">dynamické weby</h3>
+						<ul>
+							<li class="fragment">mění se v závislosti na uživateli (např. instagram, online e-shopy, atp.)</li>
+							<li class="fragment">často vyžadují komplexnější logiku serveru</li>
+							<li class="fragment">složitější na výrobu a údržbu</li>
+						</ul>
+						<aside class="notes">
+							Proto se budeme věnovat výrobě statického webu...
+						</aside>
+					</section>
+					<section>
+						<h2><a href="https://jekyllrb.com/" target="_blank">Jekyll</a></h2>
+						<ul>
+							<li class="fragment">Generátor statických webů</li>
+							<li class="fragment">Má podporu pro blogy, kategorie, štítky...</li>
+							<li class="fragment">Má komunitní <a href="https://github.com/planetjekyll/awesome-jekyll-plugins">pluginy</a>, <a href="https://jekyllthemes.io/free">vzory</a>, <a href="https://github.com/planetjekyll/awesome-jekyll">atd...</a> (někdo udělal tu otravnou práci za vás)</li>
+						</ul>
+					</section>
+					<section>
+						<h2><a href="https://tailwindcss.com/" target="_blank">TailwindCSS</a></h2>
+						<ul>
+							<li class="fragment">Rozšíření CSS</li>
+							<li class="fragment">Třídy s rozumnými defaulty</li>
+							<li class="fragment">Flexibilní konfigurace</li>
+							<li class="fragment">Velmi dobrý systém interaktivity!</li>
+						</ul>
+					</section>
+					<section>
+						<h2><a href="https://github.com/chamik/jekyll-tailwind-template" target="_blank">JEKYLL TAILWIND TEMPLATE</a></h2>
+						<ul>
+							<li class="fragment">Můj výtvor</li>
+							<li class="fragment">Používám to na většinu stránek co pro svoje potřeby vyrobím</li>
+							<li class="fragment">Obsahuje návod jak to nainstalovat a zprovoznit</li>
+						</ul>
+					</section>
+					<section>
+						<h2><a href="https://nodejs.org/en">Node.js</a> a <a href="https://www.ruby-lang.org/en/">Ruby</a></h2>
+						<ul>
+							<li class="fragment">Ruby pohání Jekyll</li>
+							<li class="fragment">Node.js pohání TailwindCSS</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Motivace</h2>
+						<ul>
+							<li class="fragment">Jekyll <s>(když zrovna funguje)</s> umí jednoduše vrstvit designy stránek, stará se za nás o hromadu technických věcí</li>
+							<li class="fragment">TailwindCSS mi pomohlo méně se zasekávat na "mikro-úpravách"</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+						<h1>THIS PAGE INTENTIONALLY LEFT BLANK</h1>
+						<aside class="notes">
+							- projít file structure
+							- sémantické HTML
+						</aside>
+				</section>
+				<section>
+					<section>
+						<h1>ACH TY INTERNETY...</h1>
+					</section>
+
+					<section>
+						<p>Je to složité místo...</p>
+						<p class="fragment">a tahle část prezentace by zasloužila vlastní přednášku.</p>
+					</section>
+
+					<section>
+						<img data-src="./assets/magic.png">
+					</section>
+
+					<section>
+						<h2>webserver</h2>
+						<ul>
+							<li class="fragment">Kouzelná krabička někde na internetu</li>
+							<li class="fragment">Servíruje náš web těm, kdo o něj zažádají</li>
+						</ul>
+					</section>
+
+					<section>
+						<p>Na internetu je hodně kouzelných krabiček. Jak náš telefon ví, kterou kontaktovat?</p>
+						<p class="fragment">Neví.</p>
+					</section>
+
+					<section>
+						<h2>ip adresa</h2>
+						<ul>
+							<li>Unikátní číslo každého počítače</li>
+							<li>Je to složitější...</li>
+						</ul>
+					</section>
+
+					<section>
+						<p>Na internetu je hodně unikátních čísel. <br>Jak náš telefon ví, které kontaktovat?</p>
+						<p class="fragment">Neví.</p>
+					</section>
+
+					<section>
+						<h2>doména</h2>
+						<ul>
+							<li class="fragment">Lidsky zapamatovatelný název</li>
+							<li class="fragment">Lze ji přiřadit k IP adrese</li>
+							<li class="fragment">Je potřeba si ji koupit</li>
+						</ul>
+					</section>
+
+					<section>
+						<p>Jak náš telefon ví, ke které IP adrese patří doména, kterou hledá?</p>
+						<p class="fragment">Neví.</p>
+					</section>
+
+					<section>
+						<h2><a href="https://www.jakfungujedns.cz/">DNS</a></h2>
+						<ul>
+							<li class="fragment">Globální systém překladu domén na IP adresy</li>
+							<li class="fragment">Hurá!</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>teď prakticky</h2></a>
+					</section>
+
+					<section>
+						<h2>Způsob 1</h2>
+						<h3>autismus</h3>
+					</section>
+
+					<section>
+						<h2>VPS</h2>
+						<ul>
+							<li class="fragment">Virtual Private Server</li>
+							<li class="fragment">Dostane přiřazenou IP adresu</li>
+							<li class="fragment">Já používám <a href="https://www.hetzner.com/">Hetzner</a></li>
+						</ul>
+					</section>
+
+					<section>
+						<table>
+							<tr>
+								<th><h2>VÝHODY</h2></th>
+								<th><ul>
+									<li class="fragment">Jsi pánem svého domu</li>
+									<li class="fragment">Můžete s tím dělat hodně věcí</li>
+								</ul></th>
+							</tr>
+							<tr>
+								<th><h2>NEVÝHODY</h2></th>
+								<th><ul>
+									<li class="fragment">Musíte se o to starat a platit</li>
+									<li class="fragment">Pokud se nevyznáte v Linuxu, budete brečet</li>
+								</ul></th>
+							</tr>
+						</table>
+					</section>
+
+					<section>
+						<h2>REVERSE PROXY</h2>
+						<p class="fragment">Program co vezme naše html soubory a předhodí je internetu.</p>
+					</section>
+					
+					<section>
+						<h2>Caddy</h2>
+						<pre class="fragment"><code data-trim data-noescape>
+							kaculik.cz {
+								root * /www/kaculik.cz
+								file_server
+							}								
+						</code></pre>
+					</section>
+
+					<section>
+						<h2>Doména</h2>
+						<ul>
+							<li class="fragment">Můžete ji koupit na hodně místech</li>
+							<li class="fragment">Je jedno kde ji koupíte</li>
+							<li class="fragment">Já používám <a href="https://wedos.cz/">Wedos</a></li>
+							<li class="fragment">Od března se zvyšují ceny .cz na 160,-</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2><a href="https://plausible.io/">PLAUSIBLE</a></h2>
+						<ul>
+							<li class="fragment">Respektuje soukromí vašich návštěvníků</li>
+							<li class="fragment">Můžete si to platit, nebo self-hostovat</li>
+							<li class="fragment"><a href="https://plausible.chamik.eu" target="_blank">Moje instance</a></li>
+						</ul>
+					</section>
+
+					<section data-background-iframe="https://plausible.chamik.eu/sites">
+					</section>
+				
+					<section>
+						<h2>Způsob 2</h2>
+						<h3>normální</h3>
+					</section>
+
+					<section>
+						<h2><a href="https://pages.github.com/">Github pages</a></h2>
+						<p class="fragment">Vbudovaný hosting přímo na GitHubu.</p>
+					</section>
+
+					<section>
+						<table>
+							<tr>
+								<th><h2>VÝHODY</h2></th>
+								<th><ul>
+									<li class="fragment">Velmi jednoduché zprovoznit</li>
+									<li class="fragment">Hosting a poddoména zadarmo</li>
+								</ul></th>
+							</tr>
+							<tr>
+								<th><h2>NEVÝHODY</h2></th>
+								<th><ul>
+									<li class="fragment">Nemáte takovou kontrolu</li>
+									<li class="fragment">Jste omezeni na 1 web</li>
+								</ul></th>
+							</tr>
+						</table>
+					</section>
+
+					<section>
+						<h2>Způsob 3</h2>
+						<h3>je mi to jedno</h3>
+					</section>
+
+					<section>
+						<h2>webzdarma.cz, neocities, apod.</h2>
+						<p class="fragment">Velmi jednoduché a přívětivé hostingové služby (často zadarmo)</p>
+					</section>
+
+					<section>
+						<table>
+							<tr>
+								<th><h2>VÝHODY</h2></th>
+								<th><ul>
+									<li class="fragment">Velmi jednoduché zprovoznit</li>
+									<li class="fragment">Hosting a poddoména zadarmo</li>
+								</ul></th>
+							</tr>
+							<tr>
+								<th><h2>NEVÝHODY</h2></th>
+								<th><ul>
+									<li class="fragment">Často jste velmi omezeni</li>
+									<li class="fragment">Pro jisté účely až moc jednoduché</li>
+								</ul></th>
+							</tr>
+						</table>
+					</section>
+
+					<section>
+						<h2>discovery</h2>
+
+						<p>Máte cool stránku, ale nikdo na ní nechodí :(</p>
+						<aside class="notes">
+							- toto je úplně v pořádku, obzvlášť ze začátku
+						</aside>
+					</section>
+
+					<section>
+						<h2>RRS reader</h2>
+
+						<ul>
+							<li class="fragment">Všichni na tuhle technologii zapomněli :(</li>
+							<li class="fragment">Nic vám neservíruje algoritmus, sami si vybíráte, co sledujete</li>
+							<li class="fragment">Velmi open!!</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>cool list</h2>
+
+						<p>Seznam cool stránek cool lidí o cool věcech</p>
+					</section>
+
+					<section>
+						<ul>
+							<li class="fragment"><a href="https://chamik.eu/void/cool-sites/">Můj cool list</a></li>
+							<li class="fragment"><a href="https://0d9e.tech/">0d9e.tech</a></li>
+							<li class="fragment"><a href="https://mrms.cz/cool.html">Marka cool list</a></li>
+							<li class="fragment"><a href="https://wiki.matfyz.cz/Studentsk%C3%A9%20weby">Matfyz studentské weby</a></li>
+							<li class="fragment">... možná standard?</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h1 class="fragment">PROČ?</h1>
+						<ul>
+							<li class="fragment">Každý má co nabídnout</li>
+							<li class="fragment">Seberealizace!</li>
+							<li class="fragment">Je to cool 😎</li>
+						</ul>
+						<aside class="notes">
+							- Je to skvělé místo k seberealizaci a vyjádření své osobnosti. Web vám nabízí mnoho flexibility a volnosti. V dnešní době definované algoritmy co upřednostňují senzaci před kvalitou je škoda toho nevyužít.
+						</aside>
+					</section>
+
+					<section>
+						<img data-src="./assets/chamik.png" width="400">
+						<p><a href="https://chamik.eu/smrst2024/">chamik.eu/smrst2024</a></p>
+					</section>
+
+					<section>
+						<h2>Děkuji za pozornost <3</h2>
+					</section>
+
+					<section>
+						<h2>Zdroje obrázků</h2>
+						<ul>
+							<li>https://thebestlaptops.net/wp-content/uploads/2021/06/screen-sizes-1024x326.png</li>
+							<li>https://giphy.com/gifs/13FrpeVH09Zrb2</li>
+						</ul>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
+				navigationMode: "linear",
+			});
+		</script>
+	</body>
+</html>
