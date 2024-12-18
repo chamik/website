@@ -33,7 +33,7 @@ image: /assets/images/pfp.png
     <div class="mb-10">
         <p class="prose prose-blog text-base md:text-lg">
             <a href="https://blackblog.cz/" target="_blank">Black Blog</a> - A blog about development, math, physics, literature, and tea <br>
-            <a href="https://mrms.cz/" target="_blank">mrms.cz</a> - Creating overengineered (he disagrees) projects in memory unsafe languages since 2020 <br>
+            <a href="https://mrms.cz/" target="_blank">mrms.cz</a> - Creating projects in memory unsafe languages since 2020 <br>
             <a href="https://rdck.dev/" target="_blank">rdck.dev</a> - This guy is unironically creating his own web browser<br>
             <a href="https://mvolfik.github.io/" target="_blank">Matěj Volf</a> - Based shitposter disguised as a programmer        
         </p>
@@ -41,12 +41,14 @@ image: /assets/images/pfp.png
         <p class="text-lg mt-2 prose prose-blog"><a href="/void/cool-sites">more cool sites</a></p>
     </div>
 
-    <p class="mb-8 text-center prose prose-blog text-base md:text-lg">Proud member of <a href="https://0d9e.tech/" target="_blank">0D9E</a></p>
+    <p class="mb-8 text-center prose prose-blog text-base md:text-lg">ඞ Proud member of <a href="https://0d9e.tech/" target="_blank">0D9E</a> ඞ</p>
 
     <p class="mb-4">RECENT POSTS</p>
-    {% assign posts = site.posts | where: 'unlisted', nil | slice: 0, 3 %}
+    {% assign posts = site.posts | where: 'unlisted', nil | slice: 0, 5 %}
     {% for post in posts %}
-        {% include article_view.html %}
+        {% if featured.url != post.url %}
+            {% include article_view.html %}
+        {% endif %}
     {% endfor %}
     <p class="text-lg mt-2 prose prose-blog"><a href="/void/">more articles</a></p>
 </div>

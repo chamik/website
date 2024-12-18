@@ -15,3 +15,9 @@ Matrix: `@kubik:0d9e.tech`
 Email: **`kubik`** [zavináč] tato doména
 
 Discord: `@chamik_`
+
+## Podpisy
+
+Malé místo pro zprávy od mých přátel. Znám tě a chceš tu taky něco zanechat? Napiš mi!
+
+{% include signatures.md %}
