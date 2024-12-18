@@ -1,6 +1,6 @@
 # Kubíkovo website
 
-Hi, welcome. This my little place on the interwebs. All of the styling and 'tech-ish' stuff is licensed under the MIT license. All of the creative content (namely in the folder `_posts`) falls under the [CC BY-SA 4.0 License](https://creativecommons.org/licenses/by-sa/4.0/). Feel free to share and recreate!
+Hi, welcome. This my little place on the interwebs.
 
 This site is created using my [jekyll-tailwind-template](https://github.com/chamik/jekyll-tailwind-template), so I recommend looking there if you're looking for something more bare-bones.
 
