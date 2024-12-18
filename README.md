@@ -15,7 +15,7 @@ npm run setup
 
 To get a live dev server up, run:
 ```sh
-npm start
+npm run dev
 ```
 or alternatively this, if you want to see your future articles and drafts appear:
 ```sh
@@ -27,7 +27,7 @@ To build a release version, (turn off the live server if you have it running, an
 npm run build
 ```
 
-To deploy I use the `./upload` script to `rsync` the build files to my VPS with NGINX set up.
+To deploy I use the `./upload` script to `rsync` the build files to my VPS with Caddy set up.
 
 ## How to use?
 
