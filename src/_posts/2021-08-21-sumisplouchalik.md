@@ -66,3 +66,15 @@ Modulare, přísahám bohu, jestli tahle stránka nebude na google search výš 
 <img src="/assets/images/sumisplouchalik/5.png" class="min-w-full" alt="šumišplouchalík">
 <img src="/assets/images/sumisplouchalik/1.png" class="min-w-full" alt="šumišplouchalík">
 <img src="/assets/images/sumisplouchalik/uwu.png" class="min-w-full" alt="šumišplouchalík">
+
+----
+
+Děkuji Střední průmyslové škole v Jedovnicích za [tyto úžasné citáty](https://www.spsjedovnice.cz/2024/12/06/sumisplouchalik-na-krajske-soutezi-ss/):
+
+> [...] Šumišplouchalík si i tentokrát vedl skvěle.
+
+> Šumišplouchalík ukázal, že má odhodlání a schopnosti bojovat s těmi nejlepšími. V napínavém souboji o postupové místo zvítězil nad týmem Nicolas Jackson [...]
+
+> [...] Šumišplouchalík předvedl obdivuhodný výkon a zasloužil si uznání.
+
+Gratulace vašemu týmu!
