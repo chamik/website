@@ -34,7 +34,7 @@ An ever-expanding list of websites I find *cool*.
 
 [Meziklasí](https://www.meziklasi.cz/) - Blog about a mythical village in the center of the Czech Republic
 
-[mrms.cz](https://mrms.cz/) - Creating oversimplified projects in memory unsafe languages since 2020
+[mmq.cz](https://mmq.cz/) - Creating oversimplified projects in memory unsafe languages since 2020
 
 [Olgasmus](https://olga.ggu.cz/) - Bunnies!!!
 
@@ -50,5 +50,5 @@ An ever-expanding list of websites I find *cool*.
 
 [Things Of Interest](https://qntm.org/) - New age sci-fi with new age formats
 
-Read a [meta article](https://mrms.cz/articles/the-cool-list-is-cool.html) about **cool lists** on **mrms.cz**
+Read a [meta article](https://mmq.cz/articles/the-cool-list-is-cool.html) about **cool lists** on **mmq.cz**
 {: .text-sm}

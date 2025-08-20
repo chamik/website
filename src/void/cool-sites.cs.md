@@ -33,7 +33,7 @@ Stále se rozšiřující seznam webů, co mi přijdou *cool*.
 
 [Meziklasí](https://www.meziklasi.cz/) - Blog o mýtické vesničce ve středu (a v pátek) České republiky
 
-[mrms.cz](https://mrms.cz/) - Vytvářející zbytečně složité (s čímž nesouhlasí) projekty v memory-unsafe jazycích od roku 2020
+[mmq.cz](https://mmq.cz/) - Vytvářející zbytečně složité (s čímž nesouhlasí) projekty v memory-unsafe jazycích od roku 2020
 
 [Olgasmus](https://olga.ggu.cz/) - Králíci!!!
 
@@ -49,5 +49,5 @@ Stále se rozšiřující seznam webů, co mi přijdou *cool*.
 
 [Things Of Interest](https://qntm.org/) - Sci-fi formáty nového věku 
 
-Přečti si o **cool seznamech** [meta článek](https://mrms.cz/articles/the-cool-list-is-cool.html) na **mrms.cz**
+Přečti si o **cool seznamech** [meta článek](https://mmq.cz/articles/the-cool-list-is-cool.html) na **mmq.cz**
 {: .text-sm}
