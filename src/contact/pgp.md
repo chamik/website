@@ -17,7 +17,7 @@ I'll be happy to sign your key(s) if I know you.
 
 ## I don't know what you're talking about
 
-Just use this *Magic box™* and send me the block of weird symbols it generates.
+Just use this *Magic box™* and send me the weird block of symbols it generates.
 
 <!-- I have *borrowed* this from https://vsq.cz/encrypt/ <3 -->
 <textarea id="message" class="w-full p-2 text-black" placeholder="my dearest jacob, i am reaching out to you regarding the bees in a box you gave me..."></textarea>
