@@ -7,9 +7,7 @@
 
 <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="{{ "/assets/fonts/fonts.css" | prepend: site.baseurl_root }}" rel="stylesheet">
 
 {% seo title=false %}
 
