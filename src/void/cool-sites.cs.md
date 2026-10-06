@@ -13,6 +13,8 @@ Stále se rozšiřující seznam webů, co mi přijdou *cool*.
 
 [0d9e.tech](https://0d9e.tech/) - Přátelský web ring
 
+[384.cz](https://384.cz/) - Věci
+
 [Aniččino](https://aniccino.blogspot.com/) - Osobní blog zcestovalé kamarádky 
 
 [Black Blog](https://blackblog.cz/) - Blog o programování, matematice, fyzice, literatuře a čaji

@@ -9,7 +9,7 @@ image: /assets/images/pfp.png
     <p class="mb-4">FEATURED</p>
     <a href="{{ featured.url }}" class="mb-10">
         <article class="group relative flex items-center justify-center overflow-hidden w-full mb-3 h-auto shadow-lg">
-            <div class="absolute flex w-full h-full transition-all duration-150 ease-linear transform bg-center opacity-10 group-hover:opacity-20 bg-cover bg-[url('{{ featured.image }}')]">
+            <div class="absolute flex w-full h-full transition-all duration-150 ease-linear transform bg-center opacity-10 group-hover:opacity-20 bg-cover" style="background-image: url('{{ featured.image }}')">
                 <!-- accessibility -->
                 <img class="hidden" alt="Cover image of {{ featured.title }}">
             </div>

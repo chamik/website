@@ -1,4 +1,4 @@
-<footer class="px-4 max-w-5xl w-full flex flex-row mx-auto my-4 py-5 justify-between border-t-2 border-zinc-900/[.2] hover:border-zinc-900/[.4] shadow-sm">
+<footer class="px-4 max-w-5xl w-full flex flex-row mx-auto my-4 py-5 justify-between border-t-2 border-zinc-900/[.2] hover:border-zinc-900/[.4] shadow-xs">
     <div class="flex flex-row gap-4">
         <p><a href="/">Kubíkovo</a></p>
         <p><a class="link" href="https://github.com/chamik/website" target="_blank">Source</a></p>
@@ -6,7 +6,7 @@
             <p><a class="link" href="https://chamik.eu/feed.xml">Atom </a></p>
         </div>
     </div>
-    <div class="flex flex-row gap-4">
-        <p>{{ "now" | date: "%Y"}}</p>
+    <div class="flex flex-row gap-4 text-gray-500">
+        <p>last built {{ site.time | date: "%d. %m. %Y" }}</p>
     </div>
 </footer>
